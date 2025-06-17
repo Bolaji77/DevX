@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px 150px;
+}
+.nav-bar{
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 100%;
+    display: flex;
+}
+ul{
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-bar li{
+    display: inline;
+    
+}
+.nav-bar li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 10px;  
+}
+.signup-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.signin{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.sign-up{
+    text-decoration: none;
+    background-color: rgb(76, 32, 133);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+#menu-icon{
+    width: 50px;
+    font-size: 50px;
+    display: none;
+}
